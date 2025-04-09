@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Lịch Sự Hóa Văn Bản",
+  "version": "1.0",
+  "description": "Tự động phát hiện ngôn từ thô tục và đề xuất cách lịch sự hơn.",
+  "permissions": ["storage", "scripting"],
+  "host_permissions": ["*://*/*"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "parrot.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*/*"], 
+      "js": ["content.js"],
+      "run_at": "document_end"
+    }
+  ]
+}
