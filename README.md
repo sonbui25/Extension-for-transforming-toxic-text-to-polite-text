@@ -126,6 +126,7 @@ TikTok là nền tảng có tỷ lệ ngôn từ tiêu cực cao nhất (nhóm t
 
 ---
 🚀 Hướng Dẫn Cài Đặt Extension
+
 🔧 Bước 1: Chạy server cục bộ (Localhost)
 Extension này cần một mô hình chạy nền để xử lý văn bản. Trước tiên, bạn cần chạy file main.py để khởi tạo server cục bộ
 📍 Server sẽ được chạy tại http://localhost:8000 (hoặc port mà bạn đã thiết lập).
