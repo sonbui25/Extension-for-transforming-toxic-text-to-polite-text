@@ -125,6 +125,26 @@ TikTok là nền tảng có tỷ lệ ngôn từ tiêu cực cao nhất (nhóm t
 - Thu thập phản hồi & cải tiến liên tục.
 
 ---
+🚀 Hướng Dẫn Cài Đặt Extension
+🔧 Bước 1: Chạy server cục bộ (Localhost)
+Extension này cần một mô hình chạy nền để xử lý văn bản. Trước tiên, bạn cần chạy file main.py để khởi tạo server cục bộ
+📍 Server sẽ được chạy tại http://localhost:8000 (hoặc port mà bạn đã thiết lập).
+
+🧩 Bước 2: Cài đặt Extension lên Chrome
+Mở Google Chrome, truy cập chrome://extensions
+
+Bật chế độ Developer mode (Chế độ nhà phát triển) ở góc phải trên
+
+Bấm Load unpacked và chọn thư mục chứa extension này (folder có file manifest.json)
+
+✨ Bước 3: Thử nghiệm
+Truy cập bất kỳ trang web nào có ô nhập văn bản (ví dụ: Instagram, YouTube comment,...)
+
+Gõ thử một đoạn văn bản có nội dung tiêu cực
+
+Extension sẽ tự động gợi ý một phiên bản văn bản lịch sự hơn
+
+✅ Extension hoạt động bằng cách gửi văn bản đến server local và nhận lại phản hồi đã được chuyển đổi.
 
 ## 📚 Dataset & Mô Hình Được Sử Dụng
 
